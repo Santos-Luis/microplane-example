@@ -21,6 +21,7 @@ sh run.sh GithubUsername BranchName
 ```
 Both arguments are mandatory, being the first your github username and the second the name you want to give to the branch that will be created.
 
+---
 
 ## Explaining how the script works:
 For executing microplane we have 4 stages (5, being the last one not used on this example):
@@ -31,6 +32,7 @@ For executing microplane we have 4 stages (5, being the last one not used on thi
 
 Other than the `plan` step, there's not much to configure here. But if you want to check all the option that each instruction gives, you can do it [here](https://github.com/Clever/microplane/blob/master/docs/mp.md)
 
+---
 
 ## Make your custom script
 For the `plan` instruction, there is a specific limitation that usually makes the use of scripts with multiple actions hard. You cannot make multiple `plan` instructions and then `push` them, since the plan always overrides the last one, only the last `plan` would be pushed to the github.
