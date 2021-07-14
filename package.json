@@ -1,0 +1,11 @@
+{
+  "name": "microplane-example",
+  "version": "1.0.0",
+  "description": "Micro plane example",
+  "dependencies": {
+    "js-yaml": "4.1.0"
+  },
+  "devDependencies": {},
+  "author": "Santos-Luis",
+  "license": "MIT"
+}
