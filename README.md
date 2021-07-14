@@ -8,10 +8,12 @@ First, you need to install microplane by running the following command (check or
 brew install microplane
 ```
 
-After this, you need also to set up your github token on the terminal. Since the only way microplane allows this token to be passed, is by env variables, you need to follow the next steps:
+Since the only way microplane allows the gihub token to be passed, is by env variables, you need to follow the next steps:
 - first generate a token by going into: `Settings -> Developer settings -> Personal access tokens`
-- copy the token and save it, since you will probably need it for another time - you can add it to your .zsh config file if is something that you use regularly
+- copy the token and save it for later
 - on the terminal, execute the following: `export GITHUB_API_TOKEN=YourTokenHere`
+- you can add it to your .zsh config file if is something that you use regularly
+
 
 After setting up the GH token, you just need to add you repositories (one per line) to the `repos.txt` file and run the following:
 ```
